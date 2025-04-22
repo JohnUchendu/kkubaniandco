@@ -1,10 +1,43 @@
 import type { Metadata } from "next";
 import React from "react";
 
+
+
 export const metadata: Metadata = {
-  title: "Banking and finance law service | K.K. Ubani & Co. ",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+      "en-GB": "/en-GB",
+    },
+  },
+  // openGraph: {
+  //   images: '/og-image.png',
+  // },
+
+  title: "Banking and finance law service ",
   description:
-    "Expert banking and finance legal services in Nigeria. Navigate regulations, mergers, acquisitions, and compliance with K.K. Ubani & Co.",
+    "Expert banking and finance legal services Lagos, Port Harcourt, Abuja, Nigeria. Navigate regulations, mergers, acquisitions, and compliance with K.K. Ubani & Co.",
+  generator: "",
+  applicationName: "K.K.Ubani&Co.",
+  referrer: "origin-when-cross-origin",
+  keywords: [
+    "Law firm services",
+    "Banking and finance   service",
+    "Banking and finance   legal service ",
+    "Banking and finance   law service ",
+    "Banking and finance   law",
+    "lawyer needed for Banking and finance  law case",
+    "Banking and finance   legal court case lawyer",
+  ],
+  authors: [{ name: "John" }],
+  creator: "John Uchendu",
+  publisher: "John Uchendu",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
 };
 
 const BankingAndFinance = () => {

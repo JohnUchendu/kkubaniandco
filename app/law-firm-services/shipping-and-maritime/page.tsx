@@ -2,9 +2,39 @@ import type { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Shipping and maritime law service | K.K. Ubani & Co. ",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+      "en-GB": "/en-GB",
+    },
+  },
+  // openGraph: {
+  //   images: '/og-image.png',
+  // },
+  title: "Shipping and maritime law service ",
   description:
-    "Expert shipping and maritime legal services in Nigeria. Navigate regulations, mergers, acquisitions, and compliance with K.K. Ubani & Co.",
+    "Expert shipping and maritime legal services Lagos, Port Harcourt and Abuja in Nigeria. Navigate regulations, mergers, acquisitions, and compliance with K.K. Ubani & Co.",
+  generator: "",
+  applicationName: "K.K.Ubani&Co.",
+  referrer: "origin-when-cross-origin",
+  keywords: [
+    "Law firm services",
+    "Shipping and maritime",
+    "Shipping and maritime legal services",
+    "Shipping and maritime law services",
+    "Shipping and maritime law",
+    "lawyer needed for Shipping and maritime law case",
+    "Shipping and maritime court case lawyer",
+  ],
+  authors: [{ name: "John" }],
+  creator: "John Uchendu",
+  publisher: "John Uchendu",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
 };
 
 const ShippingAndMaritime = () => {

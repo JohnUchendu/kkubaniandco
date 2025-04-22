@@ -1,16 +1,15 @@
-import OurServices from '@/components/Services'
-import Testimonials from '@/components/Testimonial'
-import React from 'react'
+import OurServices from "@/components/Services";
+import Testimonials from "@/components/Testimonial";
+import React from "react";
 
-import { Metadata } from 'next';
-
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: '/',
+    canonical: "/",
     languages: {
-      'en-US': '/en-US',
-      'en-GB': '/en-GB',
+      "en-US": "/en-US",
+      "en-GB": "/en-GB",
     },
   },
   // openGraph: {
@@ -18,11 +17,29 @@ export const metadata: Metadata = {
   // },
   title: "Law Firm Services",
   description: "Number 1 law firm services with K.K. Ubani & Co.",
-  generator: '',
-  applicationName: 'K.K.Ubani&Co.',
-  referrer: 'origin-when-cross-origin',
-  keywords: ["K.K. Ubani & Co.", "Law firm services", "Corporate", "Commercial", "Energy and Natural Resources"],
-  authors: [{ name: "John"}   ],
+  generator: "",
+  applicationName: "K.K.Ubani&Co.",
+  referrer: "origin-when-cross-origin",
+  keywords: [
+    "K.K. Ubani & Co.",
+    "Law firm services",
+    "Corporate",
+    "Commercial",
+    "Energy and Natural Resources",
+    "Telecommunication",
+    "Aviation",
+    "Taxation",
+    "Commercial Litigation",
+    "Alternative Dispute Resolution",
+    "Project Finance",
+    "Shipping and Maritime",
+    "Foreign Investment",
+    "Banking and Finance",
+    "Real Estate",
+    "Labour / Employment",
+    "Intellectual Property"
+  ],
+  authors: [{ name: "John" }],
   creator: "John Uchendu",
   publisher: "John Uchendu",
   formatDetection: {
@@ -35,10 +52,10 @@ export const metadata: Metadata = {
 const pages = () => {
   return (
     <div>
-        <OurServices/>
-        <Testimonials/>
+      <OurServices />
+      <Testimonials />
     </div>
-  )
-}
+  );
+};
 
-export default pages
+export default pages;

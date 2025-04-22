@@ -2,9 +2,39 @@ import type { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Alternative Dispute Resolution (ADR) law service | K.K. Ubani & Co. ",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+      "en-GB": "/en-GB",
+    },
+  },
+  // openGraph: {
+  //   images: '/og-image.png',
+  // },
+  title: "Alternative Dispute Resolution (ADR) law service",
   description:
-    "Expert alternative dispute resolution (adr) legal services in Nigeria. Navigate regulations, mergers, acquisitions, and compliance with K.K. Ubani & Co.",
+    "Expert alternative dispute resolution (adr) legal services Lagos, Port Harcourt, Abuja, Nigeria. Navigate regulations, mergers, acquisitions, and compliance with K.K. Ubani & Co.",
+  generator: "",
+  applicationName: "K.K.Ubani&Co.",
+  referrer: "origin-when-cross-origin",
+  keywords: [
+    "Law firm services",
+    "Alternative Dispute Resolution service",
+    "Alternative Dispute Resolution legal service ",
+    "Alternative Dispute Resolution law service ",
+    "Alternative Dispute Resolution law",
+    "lawyer needed for Alternative Dispute Resolution law case",
+    "Alternative Dispute Resolution legal court case lawyer",
+  ],
+  authors: [{ name: "John" }],
+  creator: "John Uchendu",
+  publisher: "John Uchendu",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
 };
 
 const ADR = () => {

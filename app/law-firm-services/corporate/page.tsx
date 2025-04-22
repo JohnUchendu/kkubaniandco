@@ -2,9 +2,40 @@ import type { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Corporate Law Services | K.K. Ubani & Co.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+      "en-GB": "/en-GB",
+    },
+  },
+  // openGraph: {
+  //   images: '/og-image.png',
+  // },
+
+  title: "Corporate Law Services",
   description:
-    "Expert corporate legal services in Nigeria. Navigate regulations, mergers, acquisitions, and compliance with K.K. Ubani & Co.",
+    "Expert corporate legal services in Lagos, Port Harcourt, Abuja, Nigeria. Navigate regulations, mergers, acquisitions, and compliance with K.K. Ubani & Co.",
+  generator: "",
+  applicationName: "K.K.Ubani&Co.",
+  referrer: "origin-when-cross-origin",
+  keywords: [
+    "Law firm services",
+    "Corporate",
+    "Corporate legal service ",
+    "Corporate law service ",
+    "Corporate law",
+    "lawyer needed for Corporate law case",
+    "Corporate legal court case lawyer",
+  ],
+  authors: [{ name: "John" }],
+  creator: "John Uchendu",
+  publisher: "John Uchendu",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
 };
 
 const CorporateLaw = () => {

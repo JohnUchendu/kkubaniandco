@@ -2,9 +2,39 @@ import type { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Telecommunication law service | K.K. Ubani & Co. ",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+      "en-GB": "/en-GB",
+    },
+  },
+  // openGraph: {
+  //   images: '/og-image.png',
+  // },
+  title: "Telecommunication law service ",
   description:
-    "Expert telecommunication legal services in Nigeria. Navigate regulations, mergers, acquisitions, and compliance with K.K. Ubani & Co.",
+    "Expert telecommunication legal services in Lagos, Port Harcourt and Abuja Nigeria. Navigate regulations, mergers, acquisitions, and compliance with K.K. Ubani & Co.",
+  generator: "",
+  applicationName: "K.K.Ubani&Co.",
+  referrer: "origin-when-cross-origin",
+  keywords: [
+    "Law firm services",
+    "Telecommunication",
+    "Telecommunication legal services",
+    "Telecommunication law services",
+    "Telecommunication law",
+    "lawyer needed for telecommunication case",
+    "Telecommunication court case lawyer",
+  ],
+  authors: [{ name: "John" }],
+  creator: "John Uchendu",
+  publisher: "John Uchendu",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
 };
 
 const TelecommunicationLaw = () => {

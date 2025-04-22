@@ -2,9 +2,39 @@ import type { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+      "en-GB": "/en-GB",
+    },
+  },
+  // openGraph: {
+  //   images: '/og-image.png',
+  // },
   title: "Real estate law service | K.K. Ubani & Co. ",
   description:
-    "Expert real estate legal services in Nigeria. Navigate regulations, mergers, acquisitions, and compliance with K.K. Ubani & Co.",
+    "Expert real estate legal services in Lagos, Port Harcourt and Abuja, Nigeria. Navigate regulations, mergers, acquisitions, and compliance with K.K. Ubani & Co.",
+  generator: "",
+  applicationName: "K.K.Ubani&Co.",
+  referrer: "origin-when-cross-origin",
+  keywords: [
+    "Law firm services",
+    "Real estate ",
+    "Real estate legal services",
+    "Real estate law service",
+    "Real estate law ",
+    "lawyer needed for Real estate law case",
+    "Real estate court case lawyer",
+  ],
+  authors: [{ name: "John" }],
+  creator: "John Uchendu",
+  publisher: "John Uchendu",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
 };
 
 const RealEstate = () => {

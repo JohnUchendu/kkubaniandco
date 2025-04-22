@@ -1,11 +1,54 @@
-"use client";
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import Testimonials from "@/components/Testimonial";
 import Hero from "@/components/Hero";
+
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+      "en-GB": "/en-GB",
+    },
+  },
+  // openGraph: {
+  //   images: '/og-image.png',
+  // },
+  title: "Our Attorneys",
+  description:
+    "Attorneys/ Lawyers at K.K. Ubani and Co. legal services in Lagos, Port Harcourt, Abuja, Nigeria. Navigate regulations, mergers, acquisitions, and compliance with K.K. Ubani & Co.",
+  generator: "",
+  applicationName: "K.K.Ubani&Co.",
+  referrer: "origin-when-cross-origin",
+  keywords: [
+    "Attorneys Law firm services",
+    "Attorneys service",
+    "Attorneys legal service ",
+    "Attorneys law service ",
+    "Attorneys law",
+    "Attorneys or a lawyer needed for law case",
+    "Attorneys for legal court case lawyer",
+    "Lawyers Law firm services",
+    "Lawyers service",
+    "Lawyers legal service ",
+    "Lawyers law service ",
+    "Lawyers law",
+    "Attorneys or a lawyer needed for law case",
+    "Lawyers for legal court case lawyer",
+  ],
+  authors: [{ name: "John" }],
+  creator: "John Uchendu",
+  publisher: "John Uchendu",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+};
 
 const attorneys = [
   {
@@ -24,16 +67,15 @@ const attorneys = [
     intro:
       "One of Deborah’s greatest strength is her ability to manage client relationship with ease.",
   },
- 
-  
+
   {
     name: "Victor Ubochi",
     office: "Senior Associate",
     image: "/our-attorneys/victor.PNG",
     bioUrl: "/our-attorneys/victor-ubochi",
     intro:
-      "Throughout his career, he has been extensively involved in settling high-ranking and sensitive legal claims for multinational corporations"
-    },
+      "Throughout his career, he has been extensively involved in settling high-ranking and sensitive legal claims for multinational corporations",
+  },
   {
     name: "Emeka M. Peters",
     office: "Senior Associate",
@@ -48,7 +90,7 @@ const attorneys = [
     image: "/our-attorneys/james.PNG",
     bioUrl: "/our-attorneys/james-uro",
     intro:
-      "James E. Uro is known for his dedication to his clients' interests, meticulous attention to detail, and ability to unravel complex legal challenges"
+      "James E. Uro is known for his dedication to his clients' interests, meticulous attention to detail, and ability to unravel complex legal challenges",
   },
 ];
 
@@ -84,7 +126,7 @@ const OurAttorneys = () => {
         </div>
       </div>
       <Testimonials />
-      <Hero/>
+      <Hero />
     </div>
   );
 };
