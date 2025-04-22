@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     "Banking and Finance",
     "Real Estate",
     "Labour / Employment",
-    "Intellectual Property"
+    "Intellectual Property",
   ],
   authors: [{ name: "John" }],
   creator: "John Uchendu",

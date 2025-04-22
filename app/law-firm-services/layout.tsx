@@ -13,12 +13,9 @@ export default function ServiceAreaLayout({
   return (
     <body>
       {children}
-      <Testimonials />
-      <AboutUs/>
+
+      <AboutUs />
       <Hero />
-      <div className="text-center mt-8 p-3">
-        <Button onClick={() => window.history.back()}>Go Back</Button>
-      </div>
     </body>
   );
 }
