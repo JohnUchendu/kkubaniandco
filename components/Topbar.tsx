@@ -6,27 +6,27 @@ const Topbar = () => {
   return (
     <div className="bg-gray-900 text-white py-2 px-4 flex justify-between items-center md:text-sm text-xs">
       {/* Left Side - Social Media Icons */}
-      {/* <div className="flex gap-4">
+     <div className="flex gap-4">
         <a
-          href="https://facebook.com"
+          href="https://facebook.com/KKubaniandco"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-500"
         >
           <Facebook size={18} />
         </a>
-        <a
+        {/* <a
           href="https://linkedin.com"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-400"
         >
           <Linkedin size={18} />
-        </a>
+        </a>  */}
         {/* <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" className="hover:text-green-400">
           <Whatsapp size={18} />
         </a> */}
-      </div> */}
+      </div> 
 
       {/* Right Side - Contact Details */}
       <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6">

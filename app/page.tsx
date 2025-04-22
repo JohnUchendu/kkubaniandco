@@ -18,9 +18,9 @@ export const metadata: Metadata = {
       'en-GB': '/en-GB',
     },
   },
-  openGraph: {
-    images: '/og-image.png',
-  },
+  // openGraph: {
+  //   images: '/og-image.png',
+  // },
   title: "K.K. Ubani & Co.",
   description: "Number 1 law firm with K.K. Ubani & Co.",
   generator: '',
