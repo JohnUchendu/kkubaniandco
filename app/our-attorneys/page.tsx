@@ -18,31 +18,17 @@ const attorneys = [
   },
   {
     name: "Deborah N. Ikechukwu",
-    office: "Associate",
+    office: "Practice Manager/ Senior Associate",
     image: "/our-attorneys/deborah.PNG",
     bioUrl: "/our-attorneys/deborah-ikechukwu",
     intro:
       "One of Deborah’s greatest strength is her ability to manage client relationship with ease.",
   },
-  {
-    name: "Stephen I. Nwoko",
-    office: "Associate",
-    image: "/our-attorneys/stephen.PNG",
-    bioUrl: "/our-attorneys/stephen-nwoko",
-    intro:
-      "Stephen is a graduate of University of Calabar a member of the Nigerian Bar Association and the Young Lawyers Forum Port Harcourt.",
-  },
-  {
-    name: "Ada A. Nwigwe",
-    office: "Associate",
-    image: "/our-attorneys/ada.PNG",
-    bioUrl: "/our-attorneys/ada-nwigwe",
-    intro:
-      "Ada's passion for commercial and energy law is driven by her desire to help companies navigate the complex legal landscape surrounding these industries",
-  },
+ 
+  
   {
     name: "Victor Ubochi",
-    office: "Associate",
+    office: "Senior Associate",
     image: "/our-attorneys/victor.PNG",
     bioUrl: "/our-attorneys/victor-ubochi",
     intro:
@@ -50,7 +36,7 @@ const attorneys = [
     },
   {
     name: "Emeka M. Peters",
-    office: "Associate",
+    office: "Senior Associate",
     image: "/our-attorneys/emeka.PNG",
     bioUrl: "/our-attorneys/emeka-peters",
     intro:
@@ -58,7 +44,7 @@ const attorneys = [
   },
   {
     name: "James E.Uro",
-    office: "Associate",
+    office: "Litigation Manager",
     image: "/our-attorneys/james.PNG",
     bioUrl: "/our-attorneys/james-uro",
     intro:

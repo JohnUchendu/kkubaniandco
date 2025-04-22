@@ -10,7 +10,7 @@ const DeborahBio = () => {
       <div className="container mx-auto py-12 px-6 pt-30 max-w-3xl ">
         <div className="flex justify-center items-center">
           <Image
-            src="/attorneys/deborah.PNG"
+            src="/our-attorneys/deborah.PNG"
             alt=" Deborah N. Ikechukwu"
             width={300}
             height={300}
