@@ -150,9 +150,9 @@ export default function OurServices() {
             <div className="w-2/3 p-4">
               <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
               <p className="text-gray-600">{service.description}</p>
-              <Link href={service.bioUrl} rel="noopener noreferrer">
-                <Button className="mt-4 w-1/2">
-                  Read More
+              <Link href={service.bioUrl} rel="noopener noreferrer ">
+                <Button className="mt-4 w-1/2 text-[10px]" >
+                  click to know why <br/> companies choose us
                 </Button>
               </Link>
             </div>

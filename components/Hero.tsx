@@ -15,7 +15,7 @@ const slides = [
     image: "/hero/justice.jpg",
     title: "Expert Legal Counsel",
     description: "Providing strategic legal solutions tailored to your needs.",
-    buttonText: "Call K.K.Ubani&Co. Now",
+    buttonText: "Call K.K.Ubani & Co. Now",
     link: "/contact-law-firm", // Add your consultation page link here
   },
   {
@@ -31,7 +31,7 @@ const slides = [
     title: "Your Trusted Legal Partner",
     description:
       "Guiding you through complex legal matters with confidence and expertise.",
-    buttonText: "Call Now",
+    buttonText: "Open A Case",
     link: "/contact-law-firm", // Add your contact page link here
   },
 ];
@@ -55,7 +55,7 @@ export default function Hero() {
             index === currentIndex ? (
               <CarouselItem key={index} className="relative w-full h-[500px]">
                 <motion.div
-                  className="absolute inset-0 bg-cover bg-center"
+                  className="absolute inset-0 bg-cover bg-center loading='lazy' "
                   style={{ backgroundImage: `url(${slide.image})` }}
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}

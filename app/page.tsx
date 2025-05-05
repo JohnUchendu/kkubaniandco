@@ -12,15 +12,15 @@ import Testimonials from "../components/Testimonial";
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: '/',
-    languages: {
-      'en-US': '/en-US',
-      'en-GB': '/en-GB',
-    },
+    canonical: 'https://kkubaniandco.com',
+    // languages: {
+    //   'en-US': '/en-US',
+    //   'en-GB': '/en-GB',
+    // },
   },
-  // openGraph: {
-  //   images: '/og-image.png',
-  // },
+  openGraph: {
+    images: '/og-image.png',
+  },
   title: "K.K. Ubani & Co.",
   description: "Number 1 law firm with K.K. Ubani & Co.",
   generator: '',

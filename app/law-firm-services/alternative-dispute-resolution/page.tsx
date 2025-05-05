@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     "lawyer needed for Alternative Dispute Resolution law case",
     "Alternative Dispute Resolution legal court case lawyer",
   ],
-  authors: [{ name: "John" }],
-  creator: "John Uchendu",
-  publisher: "John Uchendu",
+  authors: [{ name: "ECA" }],
+  creator: "Eagle Contractor Agency",
+  publisher: "Eagle Contractor Agency",
   formatDetection: {
     email: false,
     address: false,
