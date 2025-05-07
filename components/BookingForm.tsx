@@ -60,8 +60,13 @@ export default function BookingForm() {
       } else {
         setStatus("Failed to book.");
       }
-    } catch (error) {
-      console.error(error);
+    } catch (error: unknown) {
+      // Handle error with type guard
+      if (error instanceof Error) {
+        console.error("Error during form submission:", error.message);
+      } else {
+        console.error("An unknown error occurred during form submission");
+      }
       setStatus("Error occurred.");
     }
   };
@@ -124,7 +129,7 @@ export default function BookingForm() {
               ? `You selected: ${format(selectedDate, "yyyy-MM-dd")}`
               : ""
           }
-            className="w-full"
+          className="w-full"
           classNames={{
             day: "m-1 p-2 rounded hover:bg-gray-200", // margin + padding + hover style
             table: "mx-auto", // center calendar
