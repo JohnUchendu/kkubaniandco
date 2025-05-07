@@ -1,5 +1,6 @@
 import Moreabout from '@/components/Moreabout'
 import Testimonials from '@/components/Testimonial'
+import ContactForm from '@/components/ContactForm'
 import React from 'react'
 
 import { Metadata } from 'next';
@@ -43,7 +44,8 @@ export const metadata: Metadata = {
 
 const page = () => {
   return (
-    <div className='pt-10'>
+    <div className='pt-25'>
+      <ContactForm/>
         <Testimonials/>
 
     </div>

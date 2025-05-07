@@ -9,6 +9,7 @@ import Solution from "@/components/Solution";
 
 import React from "react";
 import Testimonials from "../components/Testimonial";
+import BookingForm from "../components/BookingForm";
 
 export const metadata: Metadata = {
   alternates: {
@@ -43,6 +44,7 @@ const page = () => {
       <Hero />
       <Welcome />
       <AboutUs />
+      <BookingForm/>
       <OurServices />
       <Testimonials />
       {/* <Solution /> */}
