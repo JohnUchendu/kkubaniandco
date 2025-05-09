@@ -9,26 +9,26 @@ import Solution from "@/components/Solution";
 
 import React from "react";
 import Testimonials from "../components/Testimonial";
-import BookingForm from "../components/BookingForm";
+import BookingButton from "../components/BookingButton";
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: 'https://kkubaniandco.com',
+    canonical: "https://kkubaniandco.com",
     // languages: {
     //   'en-US': '/en-US',
     //   'en-GB': '/en-GB',
     // },
   },
   openGraph: {
-    images: '/og-image.png',
+    images: "/og-image.png",
   },
   title: "K.K. Ubani & Co.",
   description: "Number 1 law firm with K.K. Ubani & Co.",
-  generator: '',
-  applicationName: 'K.K.Ubani&Co.',
-  referrer: 'origin-when-cross-origin',
+  generator: "",
+  applicationName: "K.K.Ubani&Co.",
+  referrer: "origin-when-cross-origin",
   keywords: ["K.K. Ubani & Co.", "Gratias Deo Chambers"],
-  authors: [{ name: "John"}   ],
+  authors: [{ name: "John" }],
   creator: "John Uchendu",
   publisher: "John Uchendu",
   formatDetection: {
@@ -44,7 +44,7 @@ const page = () => {
       <Hero />
       <Welcome />
       <AboutUs />
-      <BookingForm/>
+      <BookingButton />
       <OurServices />
       <Testimonials />
       {/* <Solution /> */}
